@@ -1,10 +1,10 @@
 function parentFunction(func: () => void) {
-  console.log('I am the parent function');
-  func();
+  console.log("I'm the parent function"); //1
+  func(); //childFunction
 }
 
 function childFunction() {
-  console.log('I am the child function');
+  console.log("I'm the child function");
 }
 
 parentFunction(childFunction);

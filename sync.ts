@@ -2,14 +2,14 @@ console.log('Start');
 
 let username = 'Mubashir Ali';
 
-console.log(username);
+console.log(username); // 5
 
 let age = 18;
 
 if (age < 18) {
   console.log('you are not an adult');
 } else {
-  console.log('you are an  adult');
+  console.log('you are an adult');
 }
 
 const bestFriends: string[] = ['Hamza', 'Ali', 'Raza', 'Junaid'];
